@@ -6,7 +6,7 @@ function threeSum(arr, target) {
 		
 		arr1.push(arr[i]);
 		
-		arr1 += targ  +1;
+		arr1 += targ+arr[i];
 	}
 	return arr1;
 }
