@@ -9,6 +9,7 @@ function threeSum(arr, target) {
 	// 	arr1 += targ+arr[i];
 	// }
 	// return arr1;
+	arr.sort((a,b)=>a-b);
 let ans =9999999;
 	const n=arr.length;
 	for(let i=0;i<n-2;i++){
